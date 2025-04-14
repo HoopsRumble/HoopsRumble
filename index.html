@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hoops Rumble</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .inscription-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #fff;
+      background: linear-gradient(135deg, #ff416c, #ff4b2b);
+      border: none;
+      border-radius: 50px;
+      box-shadow: 0 8px 20px rgba(255, 65, 108, 0.4);
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .inscription-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 25px rgba(255, 65, 108, 0.6);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Hoops Rumble Logo" class="logo"/>
+    <h1>Hoops Rumble – Tournoi 3x3</h1>
+    <p>Date : Lundi 9 juin 2025 – Gymnase Émile Moiroud, Amiens</p>
+    <p>Cashprize : 333 € pour l'équipe gagnante</p>
+    <p>Frais d’inscription : 15 € / équipe</p>
+    <a href="https://www.paypal.com/ncp/payment/8M6EJU9UKWY7J" class="inscription-button" target="_blank" onclick="setTimeout(() => window.location.href='formulaire.html', 5000)">
+      🎟️ S'inscrire maintenant
+    </a>
+  </div>
+</body>
+</html>

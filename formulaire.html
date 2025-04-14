@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inscription - Hoops Rumble</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>Formulaire d'inscription</h1>
+    <form id="formulaire">
+      <input type="text" name="team" placeholder="Nom de l'équipe" required />
+      <input type="text" name="captain" placeholder="Nom du capitaine" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <input type="text" name="phone" placeholder="Téléphone" required />
+      <input type="text" name="player1" placeholder="Joueur 1" required />
+      <input type="text" name="player2" placeholder="Joueur 2" required />
+      <input type="text" name="player3" placeholder="Joueur 3" required />
+      <input type="text" name="player4" placeholder="Joueur 4 (facultatif)" />
+      <button type="submit">Envoyer</button>
+    </form>
+    <p id="confirmation"></p>
+  </div>
+  <script src="submit.js"></script>
+</body>
+</html>
